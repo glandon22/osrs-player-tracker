@@ -1,0 +1,16 @@
+{
+  "name": "osrs",
+  "version": "1.0.0",
+  "description": "Lambda to pull osrs Hiscores data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist/nodejs/ && cp package*.json dist/nodejs && npm install --prefix ./dist/nodejs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dynamoose": "^4.0.1"
+  }
+}
